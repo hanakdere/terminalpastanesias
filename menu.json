@@ -228,8 +228,16 @@
     },
     {
       "id": "p16",
-      "name": "Baklava / Soğuk Baklava",
-      "desc": "Baklava (sıcak) ve soğuk baklava seçenekleri.",
+      "name": "Baklava ",
+      "desc": "Baklava (sıcak).",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["fıstık?","şeker","gluten"],
+      "image": "images/baklava.jpg"
+    },   {
+      "id": "p16",
+      "name": " Soğuk Baklava",
+      "desc": "soğuk seçenekleri.",
       "category": "Tatlılar",
       "price": "₺--",
       "tags": ["fıstık?","şeker","gluten"],
@@ -237,8 +245,16 @@
     },
     {
       "id": "p17",
-      "name": "Şeker Pare / Tulumba",
-      "desc": "Şeker pare ve tulumba tatlıları (gramajlı).",
+      "name": " Tulumba",
+      "desc": "tatlıları (gramajlı).",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["şeker","gluten"],
+      "image": "images/seker_pare_tulumba.jpg"
+    },{
+      "id": "p17",
+      "name": "Şeker Pare ",
+      "desc": " adet.",
       "category": "Tatlılar",
       "price": "₺--",
       "tags": ["şeker","gluten"],
