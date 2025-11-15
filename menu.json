@@ -14,7 +14,7 @@
       "id": "p2",
       "name": "Susamlı Çubuk",
       "desc": "Günlük, gevrek susamlı çubuk.",
-      "category": "Atıştırmalık",
+      "category": "Kurabiye & Tatlı",
       "price": "₺--",
       "tags": ["vejetaryen","gluten"],
       "image": "images/susamli_cubuk.jpg"
@@ -28,14 +28,59 @@
       "tags": ["elma","gluten","şeker"],
       "image": "images/elmali_turta_kurabiye.jpg"
     },
+     {
+      "id": "p15",
+      "name": "Kol böreği",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Börekler",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+     {
+      "id": "p15",
+      "name": "Su böreği",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Börekler",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+     {
+      "id": "p15",
+      "name": "Gül böreği",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Börekler",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
     {
       "id": "p4",
       "name": "Ay Çöreği",
       "desc": "Teremyağlı, hafif tatlı ay çöreği.",
-      "category": "Hamur",
+      "category": "Kurabiye & Tatlı",
       "price": "₺--",
       "tags": ["süt","gluten"],
       "image": "images/ay_coregi.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Karışık kurupasta",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+     {
+      "id": "p15",
+      "name": "Çerkeş Kurabiyesi",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
     },
     {
       "id": "p5",
@@ -91,6 +136,15 @@
       "tags": ["gluten","süt"],
       "image": "images/pogaca_sade.jpg"
     },
+     {
+      "id": "p10",
+      "name": "Simit",
+      "desc": "Günlük sade poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["gluten","süt"],
+      "image": "images/pogaca_sade.jpg"
+    },
     {
       "id": "p11",
       "name": "Poğaça (Peynirli)",
@@ -118,6 +172,15 @@
       "tags": ["süt","gluten"],
       "image": "images/acma_sade.jpg"
     },
+     {
+      "id": "p13",
+      "name": "Poğaça (Mayasız)",
+      "desc": "Yumuşak, tereyağlı sade açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_sade.jpg"
+    },
     {
       "id": "p14",
       "name": "Açma (Kaşarlı)",
@@ -128,10 +191,37 @@
       "image": "images/acma_kasarli.jpg"
     },
     {
+      "id": "p14",
+      "name": "Açma (Patatesli)",
+      "desc": "İçinde eritilmiş kaşar peynirli açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_kasarli.jpg"
+    },
+    {
       "id": "p15",
-      "name": "Cevizli Çikolatalı (Kurabiye)",
+      "name": "Açma (Cevizli)",
       "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
-      "category": "Kurabiye & Tatlı",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Açma (Çikolatalı)",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Açma (Peynirli)",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Hamur",
       "price": "₺--",
       "tags": ["ceviz","çikolata","gluten","süt"],
       "image": "images/cevizli_cikolatali_kurabiye.jpg"
@@ -154,14 +244,152 @@
       "tags": ["şeker","gluten"],
       "image": "images/seker_pare_tulumba.jpg"
     },
-    {
-      "id": "p18",
-      "name": "0 Nolu Pasta / 1 Nolu Pasta / 2 Nolu Pasta",
-      "desc": "Özel numaralı pastalar — çeşit ve boy seçenekleri için sorunuz.",
+   {
+      "id": "p18-0",
+      "name": "0 Nolu Pasta",
+      "desc": "Özel 0 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
       "category": "Pastalar",
       "price": "₺--",
       "tags": ["özel","sipariş"],
-      "image": "images/nolu_pasta.jpg"
+      "image": "images/nolu_pasta0.jpg"
+    },
+    {
+      "id": "p18-1",
+      "name": "1 Nolu Pasta",
+      "desc": "Özel 1 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+      "category": "Pastalar",
+      "price": "₺--",
+      "tags": ["özel","sipariş"],
+      "image": "images/nolu_pasta1.jpg"
+    },
+    {
+      "id": "p18-2",
+      "name": "2 Nolu Pasta",
+      "desc": "Özel 2 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+      "category": "Pastalar",
+      "price": "₺--",
+      "tags": ["özel","sipariş"],
+      "image": "images/nolu_pasta2.jpg"
+    },
+    {
+      "name": "Çay",
+      "category": "Sıcak İçecekler",
+      "price": "5₺",
+      "image": "images/cay.png",
+      "desc": "Sıcak çay",
+      "tags": ["sıcak","çay"]
+    },
+    {
+      "name": "Kahve",
+      "category": "Sıcak İçecekler",
+      "price": "10₺",
+      "image": "images/kahve.png",
+      "desc": "Taze demlenmiş kahve",
+      "tags": ["sıcak","kahve"]
+    },
+    {
+      "name": "Oralet",
+      "category": "Sıcak İçecekler",
+      "price": "6₺",
+      "image": "images/oralet.png",
+      "desc": "Soğuk içecek",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Kuşburnu",
+      "category": "Sıcak İçecekler",
+      "price": "7₺",
+      "image": "images/kusburnu.png",
+      "desc": "Vitamin deposu",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Nanelimon",
+      "category": "Sıcak İçecekler",
+      "price": "6₺",
+      "image": "images/nanelimon.png",
+      "desc": "Ferahlatıcı içecek",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Su",
+      "category": "İçecekler",
+      "price": "2₺",
+      "image": "images/su.png",
+      "desc": "Mineralli su",
+      "tags": ["soğuk"]
+    },
+    {
+      "name": "Meyve Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "6₺",
+      "image": "images/meyvesuyu.png",
+      "desc": "Çeşitli meyve suları",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Maden Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "3₺",
+      "image": "images/madensuyu.png",
+      "desc": "Soda",
+      "tags": ["soğuk"]
+    },
+    {
+      "name": "Litrelik Kola",
+      "category": "Soğuk İçecekler",
+      "price": "12₺",
+      "image": "images/litrelikkola.png",
+      "desc": "1 L kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "2,5 Litrelik Kola",
+      "category": "Soğuk İçecekler",
+      "price": "18₺",
+      "image": "images/2_5litrelikkola.png",
+      "desc": "2,5 L kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Teneke Kola",
+      "category": "Soğuk İçecekler",
+      "price": "5₺",
+      "image": "images/tenekekola.png",
+      "desc": "330 ml kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Teneke Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "6₺",
+      "image": "images/tenekefanta.png",
+      "desc": "Fanta 330 ml",
+      "tags": ["soğuk","gazlı"]
+    },
+     {
+      "name": "Litrelik Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "6₺",
+      "image": "images/tenekefanta.png",
+      "desc": "Fanta 330 ml",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "2,5 Litrelik Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "20₺",
+      "image": "images/2_5litrelikfanta.png",
+      "desc": "Fanta 2,5 L",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Litrelik Meyve Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "15₺",
+      "image": "images/litrelikmeyvesuyu.png",
+      "desc": "1 L meyve suyu",
+      "tags": ["soğuk","meyve"]
     }
   ]
 }
