@@ -1,0 +1,167 @@
+{
+  "updated": "2025-11-15",
+  "items": [
+    {
+      "id": "p1",
+      "name": "Mini Muzlu Rulo",
+      "desc": "İnce hamur içinde muzlu kremalı küçük rulo.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["muz","süt","gluten"],
+      "image": "images/mini_muzlu_rulo.jpg"
+    },
+    {
+      "id": "p2",
+      "name": "Susamlı Çubuk",
+      "desc": "Günlük, gevrek susamlı çubuk.",
+      "category": "Atıştırmalık",
+      "price": "₺--",
+      "tags": ["vejetaryen","gluten"],
+      "image": "images/susamli_cubuk.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "Elmalı Turta Kurabiye",
+      "desc": "Elmalı dolgu ile tatlandırılmış kurabiye-turta.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["elma","gluten","şeker"],
+      "image": "images/elmali_turta_kurabiye.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Ay Çöreği",
+      "desc": "Teremyağlı, hafif tatlı ay çöreği.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/ay_coregi.jpg"
+    },
+    {
+      "id": "p5",
+      "name": "Üzümlü Turta Kurabiye",
+      "desc": "Üzümlü, kıtır hamurlu turta-kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["üzüm","gluten","şeker"],
+      "image": "images/uzumlu_turta_kurabiye.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Ekler",
+      "desc": "Kremalı çikolata veya vanilya dolgulu ekler.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["süt","yumurta","gluten"],
+      "image": "images/ekler.jpg"
+    },
+    {
+      "id": "p7",
+      "name": "Top",
+      "desc": "Çikolatalı toplar (truff tarzı).",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["çikolata","süt","fındık?"],
+      "image": "images/top.jpg"
+    },
+    {
+      "id": "p8",
+      "name": "Supangle",
+      "desc": "Klasik yoğun çikolatalı supangle.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["çikolata","süt"],
+      "image": "images/supangle.jpg"
+    },
+    {
+      "id": "p9",
+      "name": "Profiterol",
+      "desc": "Karamel veya çikolata soslu profiterol.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["süt","yumurta","gluten"],
+      "image": "images/profiterol.jpg"
+    },
+    {
+      "id": "p10",
+      "name": "Poğaça (Sade)",
+      "desc": "Günlük sade poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["gluten","süt"],
+      "image": "images/pogaca_sade.jpg"
+    },
+    {
+      "id": "p11",
+      "name": "Poğaça (Peynirli)",
+      "desc": "İçinde beyaz peynirli poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/pogaca_peynirli.jpg"
+    },
+    {
+      "id": "p12",
+      "name": "Poğaça (Patatesli)",
+      "desc": "Baharatlı patates dolgulu poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["gluten","patates"],
+      "image": "images/pogaca_patatesli.jpg"
+    },
+    {
+      "id": "p13",
+      "name": "Açma (Sade)",
+      "desc": "Yumuşak, tereyağlı sade açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_sade.jpg"
+    },
+    {
+      "id": "p14",
+      "name": "Açma (Kaşarlı)",
+      "desc": "İçinde eritilmiş kaşar peynirli açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_kasarli.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Cevizli Çikolatalı (Kurabiye)",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p16",
+      "name": "Baklava / Soğuk Baklava",
+      "desc": "Baklava (sıcak) ve soğuk baklava seçenekleri.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["fıstık?","şeker","gluten"],
+      "image": "images/baklava.jpg"
+    },
+    {
+      "id": "p17",
+      "name": "Şeker Pare / Tulumba",
+      "desc": "Şeker pare ve tulumba tatlıları (gramajlı).",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["şeker","gluten"],
+      "image": "images/seker_pare_tulumba.jpg"
+    },
+    {
+      "id": "p18",
+      "name": "0 Nolu Pasta / 1 Nolu Pasta / 2 Nolu Pasta",
+      "desc": "Özel numaralı pastalar — çeşit ve boy seçenekleri için sorunuz.",
+      "category": "Pastalar",
+      "price": "₺--",
+      "tags": ["özel","sipariş"],
+      "image": "images/nolu_pasta.jpg"
+    }
+  ]
+}
