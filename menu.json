@@ -642,7 +642,7 @@
     "category": "özel siparişler",
     "price": "Adet 1300 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/ozel_siparis1.jpg"
+    "image": "a.jpg"
   },
   {
     "id": "p49",
@@ -651,7 +651,7 @@
     "category": "özel siparişler",
     "price": "Adet 1700 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/ozel_siparis2.jpg"
+    "image": "b.jpg"
   },
   {
     "id": "p50",
@@ -660,7 +660,7 @@
     "category": "özel siparişler",
     "price": "Adet 2000 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/ozel_siparis3.jpg"
+    "image": "c.jpg"
   },
   {
     "id": "p51",
@@ -669,7 +669,7 @@
     "category": "özel siparişler",
     "price": "Adet 2400 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/ozel_siparis4.jpg"
+    "image": "d.jpg"
   },
   {
     "id": "p52",
@@ -678,7 +678,7 @@
     "category": "özel siparişler",
     "price": "Adet 2800 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/ozel_siparis5.jpg"
+    "image": "e.jpg"
   },
   {
     "id": "p53",
@@ -687,7 +687,7 @@
     "category": "özel siparişler",
     "price": "Adet 3500 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/ozel_siparis6.jpg"
+    "image": "f.jpg"
   },
   {
     "id": "p54",
@@ -696,7 +696,7 @@
     "category": "özel siparişler",
     "price": "Adet 4000 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/ozel_siparis7.jpg"
+    "image": "g.jpg"
   }
   ]
   }
