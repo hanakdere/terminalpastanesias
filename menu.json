@@ -9,7 +9,7 @@
       "category": "Tatlılar",
       "price": "Adet 25 TL / KG 350 TL",
       "tags": ["muz","süt","gluten","şeker"],
-      "image": "images/tatli_mini_muzlu_rulo.jpg"
+      "image": "rulo.jpg"
     },
     {
       "id": "p2",
@@ -18,7 +18,7 @@
       "category": "Kurabiye & Tatlı",
       "price": "Porsiyon 50 TL / KG 400 TL",
       "tags": ["vejetaryen","gluten","susam","un"],
-      "image": "images/kurabiye_susamli_cubuk.jpg"
+      "image": "çubuk.jpg"
     },
     {
       "id": "p3",
@@ -27,7 +27,7 @@
       "category": "Kurabiye & Tatlı",
       "price": "Adet 40 TL",
       "tags": ["elma","gluten","şeker","un"],
-      "image": "images/kurabiye_elmali_turta.jpg"
+      "image": "elmalı.jpg"
     },
     {
       "id": "p4",
@@ -90,7 +90,7 @@
       "category": "Kurabiye & Tatlı",
       "price": "Porsiyon 80 TL / KG 400 TL",
       "tags": ["ceviz","çikolata","gluten","süt","un","şeker"],
-      "image": "images/kurabiye_karisik.jpg"
+      "image": "kurupasta.jpg"
     },
     {
       "id": "p11",
@@ -99,7 +99,7 @@
       "category": "Kurabiye & Tatlı",
       "price": "Porsiyon 75 TL / KG 300 TL",
       "tags": ["gluten","süt","un","yağ"],
-      "image": "images/kurabiye_cerkes.jpg"
+      "image": "porsiyonçerkes.jpg"
     },
     {
       "id": "p12",
@@ -108,16 +108,52 @@
       "category": "Kurabiye & Tatlı",
       "price": "Adet 40 TL",
       "tags": ["üzüm","gluten","şeker","un","süt"],
-      "image": "images/kurabiye_uzumlu_turta.jpg"
+      "image": "üzümlü.jpg"
     },
     {
       "id": "p13",
-      "name": "Ekler",
-      "desc": "Çikolata veya vanilya dolgulu kremalı ekler.",
+      "name": "çikolatalı Ekler",
+      "desc": "vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
       "price": "Porsiyon 60 TL / KG 350 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
-      "image": "images/tatli_ekler.jpg"
+      "image": "ekler.jpg"
+    },
+    {
+      "id": "p61",
+      "name": "frambuazlı Ekler",
+      "desc": " vanilya dolgulu kremalı ekler.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 60 TL / KG 350 TL",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "eklerfran.jpg"
+    },
+    {
+      "id": "p62",
+      "name": "hindistan cevizli Ekler",
+      "desc": " vanilya dolgulu kremalı ekler.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 60 TL / KG 350 TL",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "hintekler.jpg"
+    },
+    {
+      "id": "p63",
+      "name": "karamelli triliçe",
+      "desc": "karamelli sütlü pandispanya keski.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 60 TL / KG 350 TL",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "karameltriliçe.jpg"
+    },
+    {
+      "id": "p64",
+      "name": "frambuazlı triliçe",
+      "desc": "frambuaz sütlü pandispanya keski.",
+      "category": "Tatlılar",
+      "price": "Porsiyon 60 TL / KG 350 TL",
+      "tags": ["süt","yumurta","gluten","un","şeker"],
+      "image": "franbuaztriliçe.jpg"
     },
     {
       "id": "p14",
@@ -126,7 +162,7 @@
       "category": "Tatlılar",
       "price": "Porsiyon 70 TL / KG 350 TL",
       "tags": ["çikolata","süt","fındık","şeker"],
-      "image": "images/tatli_top.jpg"
+      "image": "top.jpg"
     },
     {
       "id": "p15",
@@ -135,7 +171,7 @@
       "category": "Tatlılar",
       "price": "Adet 70 TL",
       "tags": ["çikolata","süt","un","şeker"],
-      "image": "images/tatli_supangle.jpg"
+      "image": "supangle.jpg"
     },
     {
       "id": "p16",
@@ -144,7 +180,7 @@
       "category": "Tatlılar",
       "price": "Adet 70 TL",
       "tags": ["süt","yumurta","gluten","un","çikolata","şeker"],
-      "image": "images/tatli_profiterol.jpg"
+      "image": "progfeterol.jpg"
     },
     {
       "id": "p17",
@@ -279,7 +315,7 @@
     "category": "Tatlılar",
     "price": "Porsiyon 90 TL / KG 450 TL",
     "tags": ["ceviz","şeker","gluten","un","tereyağı"],
-    "image": "images/baklava.jpg"
+    "image": "baklava.jpg"
   },
   {
     "id": "p58",
@@ -288,7 +324,7 @@
     "category": "Tatlılar",
     "price": "Porsiyon 100 TL / KG 500 TL",
     "tags": ["süt","ceviz","şeker","gluten","un","tereyağı"],
-    "image": "images/baklava.jpg"
+    "image": "soğukbaklava.jpg"
   },
   {
     "id": "p32",
@@ -297,7 +333,7 @@
     "category": "Tatlılar",
     "price": "Porsiyon 75 TL / KG 300 TL",
     "tags": ["şeker","gluten","un","tereyağı"],
-    "image": "images/seker_pare_tulumba.jpg"
+    "image": "şekerpare.jpg"
   },
   {
     "id": "p59",
@@ -306,7 +342,7 @@
     "category": "Tatlılar",
     "price": "Porsiyon 60 TL / KG 250 TL",
     "tags": ["şeker","gluten","un","tereyağı"],
-    "image": "images/seker_pare_tulumba.jpg"
+    "image": "tlumba.jpg"
   },
   {
     "id": "p55",
@@ -315,7 +351,7 @@
     "category": "Pastalar",
     "price": "Adet 400 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta0.jpg"
+    "image": "batonmuz.jpg"
   },
   {
     "id": "p56",
@@ -324,16 +360,25 @@
     "category": "Pastalar",
     "price": "Adet 400 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta0.jpg"
+    "image": "batonçikolata.jpg"
   },
   {
     "id": "p57",
-    "name": "Küçük porsiyon pasta",
+    "name": "Küçük muzlu porsiyon pasta",
     "desc": "çeşit ve boy seçenekleri için sorunuz.",
     "category": "Pastalar",
     "price": "Adet 75 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta0.jpg"
+    "image": "porsiyonpasta.jpg"
+  },
+  {
+    "id": "p60",
+    "name": "Küçük çikolatalı porsiyon pasta",
+    "desc": "çeşit ve boy seçenekleri için sorunuz.",
+    "category": "Pastalar",
+    "price": "Adet 75 TL",
+    "tags": ["özel","sipariş"],
+    "image": "küçükçikolata.jpg"
   },
   {
     "id": "p33",
@@ -342,7 +387,7 @@
     "category": "Pastalar",
     "price": "Adet 480 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta0.jpg"
+    "image": "0noluhasbahçe.jpg"
   },
   {
     "id": "p34",
@@ -378,7 +423,7 @@
     "category": "Pastalar",
     "price": "Adet 480 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta0.jpg"
+    "image": "onolufranbuaz.jpg"
   },
   {
     "id": "p38",
@@ -387,7 +432,7 @@
     "category": "Pastalar",
     "price": "Adet 650 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta1.jpg"
+    "image": "1noluçikolatalı.jpg"
   },
   {
     "id": "p39",
@@ -396,7 +441,7 @@
     "category": "Pastalar",
     "price": "Adet 680 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta1.jpg"
+    "image": "1noluhasbahçe.jpg"
   },
   {
     "id": "p40",
@@ -405,7 +450,7 @@
     "category": "Pastalar",
     "price": "Adet 680 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta1.jpg"
+    "image": "1nolumuzluçikolatalı.jpg"
   },
   {
     "id": "p41",
@@ -414,7 +459,7 @@
     "category": "Pastalar",
     "price": "Adet 680 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta1.jpg"
+    "image": "1nolufranbuaz.jpg"
   },
   {
     "id": "p42",
@@ -432,7 +477,7 @@
     "category": "Pastalar",
     "price": "Adet 750 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta2.jpg"
+    "image": "2noluçikolaalı.jpg"
   },
   {
     "id": "p44",
@@ -474,7 +519,7 @@
       "name": "Çay",
       "category": "Sıcak İçecekler",
       "price": "10₺",
-      "image": "images/cay.png",
+      "image": "çay.jpg",
       "desc": "Sıcak çay",
       "tags": ["sıcak","çay"]
     },
@@ -482,7 +527,7 @@
       "name": "Kahve",
       "category": "Sıcak İçecekler",
       "price": "30₺",
-      "image": "images/kahve.png",
+      "image": "kahve.jpg",
       "desc": "Taze demlenmiş kahve",
       "tags": ["sıcak","kahve"]
     },
@@ -490,7 +535,7 @@
       "name": "Oralet",
       "category": "Sıcak İçecekler",
       "price": "10₺",
-      "image": "images/oralet.png",
+      "image": "oralet.jpeg",
       "desc": "Soğuk içecek",
       "tags": ["soğuk","meyve"]
     },
@@ -498,7 +543,7 @@
       "name": "Kuşburnu",
       "category": "Sıcak İçecekler",
       "price": "10₺",
-      "image": "images/kusburnu.png",
+      "image": "kuşburnu.jpg",
       "desc": "Vitamin deposu",
       "tags": ["soğuk","meyve"]
     },
@@ -506,7 +551,7 @@
       "name": "Nanelimon",
       "category": "Sıcak İçecekler",
       "price": "10₺",
-      "image": "images/nanelimon.png",
+      "image": "nanelimon.jpeg",
       "desc": "Ferahlatıcı içecek",
       "tags": ["soğuk","meyve"]
     },
@@ -514,7 +559,7 @@
       "name": "Su",
       "category": "Soğuk İçecekler",
       "price": "10₺",
-      "image": "images/su.png",
+      "image": "su.jpg",
       "desc": "Mineralli su",
       "tags": ["soğuk"]
     },
@@ -522,7 +567,7 @@
       "name": "Meyve Suyu",
       "category": "Soğuk İçecekler",
       "price": "20₺",
-      "image": "images/meyvesuyu.png",
+      "image": "küçükmeyv.avif",
       "desc": "Çeşitli meyve suları",
       "tags": ["soğuk","meyve"]
     },
@@ -530,7 +575,7 @@
       "name": "Maden Suyu",
       "category": "Soğuk İçecekler",
       "price": "25₺",
-      "image": "images/madensuyu.png",
+      "image": "sade.png",
       "desc": "Soda",
       "tags": ["soğuk"]
     },
@@ -538,7 +583,7 @@
       "name": "Litrelik Kola",
       "category": "Soğuk İçecekler",
       "price": "60₺",
-      "image": "images/litrelikkola.png",
+      "image": "küçükkola.jpg",
       "desc": "1 L kola",
       "tags": ["soğuk","gazlı"]
     },
@@ -546,7 +591,7 @@
       "name": "2,5 Litrelik Kola",
       "category": "Soğuk İçecekler",
       "price": "80₺",
-      "image": "images/2_5litrelikkola.png",
+      "image": "büyükkola.jpg",
       "desc": "2,5 L kola",
       "tags": ["soğuk","gazlı"]
     },
@@ -554,7 +599,7 @@
       "name": "Teneke Kola",
       "category": "Soğuk İçecekler",
       "price": "60₺",
-      "image": "images/tenekekola.png",
+      "image": "colateneke.jpg",
       "desc": "330 ml kola",
       "tags": ["soğuk","gazlı"]
     },
@@ -562,7 +607,7 @@
       "name": "Teneke Fanta",
       "category": "Soğuk İçecekler",
       "price": "60₺",
-      "image": "images/tenekefanta.png",
+      "image": "tenekefanta.jpeg",
       "desc": "Fanta 330 ml",
       "tags": ["soğuk","gazlı"]
     },
@@ -570,7 +615,7 @@
       "name": "Litrelik Fanta",
       "category": "Soğuk İçecekler",
       "price": "60₺",
-      "image": "images/tenekefanta.png",
+      "image": "litrelikfanta.jpeg",
       "desc": "Fanta 330 ml",
       "tags": ["soğuk","gazlı"]
     },
@@ -578,7 +623,7 @@
       "name": "2,5 Litrelik Fanta",
       "category": "Soğuk İçecekler",
       "price": "60₺",
-      "image": "images/2_5litrelikfanta.png",
+      "image": "büyükfanta.jpg",
       "desc": "Fanta 2,5 L",
       "tags": ["soğuk","gazlı"]
     },
@@ -586,7 +631,7 @@
       "name": "Litrelik Meyve Suyu",
       "category": "Soğuk İçecekler",
       "price": "70₺",
-      "image": "images/litrelikmeyvesuyu.png",
+      "image": "litremeyv.jpg",
       "desc": "1 L meyve suyu",
       "tags": ["soğuk","meyve"]
     },
