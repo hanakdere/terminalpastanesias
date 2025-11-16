@@ -1,184 +1,395 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Terminal Pastanesi — Menü</title>
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    color: #222;
-    -webkit-font-smoothing: antialiased;
-    background: url('dar.png') center center no-repeat fixed;
-    background-size: cover;
-    position: relative;
-    min-height: 100vh;
-  }
-
-  /* Dar arka plan - hep görünür */
-  .dar-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('logo.png') center center no-repeat;
-    background-size: contain; /* içerik orantılı */
-    z-index: -1; /* içerik üstünde */
-  }
-
-  header {
-    background: #b33;
-    color: white;
-    padding: 18px 16px;
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    z-index: 1;
-  }
-
-  .brand { font-weight: 700; font-size: 18px; }
-  .controls { display: flex; gap: 8px; align-items: center; }
-  .search { padding: 8px 10px; border-radius: 8px; border: 0; min-width: 160px; }
-
-  .container {
-    max-width: 1000px;
-    margin: 12px auto;
-    padding: 16px;
-    position: relative;
-    z-index: 1;
-  }
-
-  .categories { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-  .cat-btn {
-    padding: 8px 10px;
-    border-radius: 999px;
-    border: 1px solid #eee;
-    background: #fafafa;
-    cursor: pointer;
-  }
-  .cat-btn.active { background: #b33; color: #fff; border-color: #b33; }
-
-  .grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 12px; }
-  .card {
-    background: linear-gradient(180deg,#fff,#fffaf4);
-    border-radius: 10px;
-    padding: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    display: flex;
-    gap: 12px;
-    align-items: center;
-  }
-
-  .thumb { width: 72px; height: 72px; border-radius: 8px; flex: 0 0 72px; object-fit: cover; background: #eee; }
-  .info { flex:1; }
-  .title { font-weight:600; }
-  .desc { color:#666; font-size:13px; margin-top:6px; }
-  .price { font-weight:700; color:#b33; margin-left:8px; }
-  .tags { margin-top:6px; display:flex; gap:6px; flex-wrap:wrap; }
-  .tag { background:#fff; border:1px solid #eee; padding:4px 6px; border-radius:6px; font-size:12px; color:#666; }
-  .footer-note { margin-top:14px; color:#666; font-size:13px; }
-
-  @media(max-width:480px){
-    .search { min-width:100px; }
-    header { padding:12px; }
-  }
-</style>
-</head>
-<body>
-  <!-- Dar arka plan -->
-  <div class="dar-bg"></div>
-
-  <header>
-    <div class="brand">Terminal Pastanesi — Menü</div>
-    <div class="controls">
-      <input id="search" class="search" placeholder="Ürün ara (örn: kurabiye)" />
-      <button id="langBtn" class="cat-btn">TR</button>
-    </div>
-  </header>
-
-  <main class="container">
-    <div id="categories" class="categories"></div>
-    <div id="grid" class="grid"></div>
-    <div class="footer-note">Menü güncel: <span id="updated">—</span></div>
-  </main>
-
-<script>
-const state = { menu: [], categories: [], activeCat: 'all', lang: 'tr' };
-
-async function loadMenu(){
-  try{
-    const res = await fetch('menu.json',{cache:'no-store'});
-    const data = await res.json();
-    state.menu = data.items || [];
-    state.updated = data.updated || null;
-    buildCategories();
-    render();
-  }catch(e){
-    console.error(e);
-    document.getElementById('grid').innerHTML='<div style="padding:20px;color:#a00">Menü yüklenemedi</div>';
-  }
+{
+  "updated": "2025-11-15",
+  "items": [
+    {
+      "id": "p1",
+      "name": "Mini Muzlu Rulo",
+      "desc": "İnce hamur içinde muzlu kremalı küçük rulo.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["muz","süt","gluten"],
+      "image": "images/mini_muzlu_rulo.jpg"
+    },
+    {
+      "id": "p2",
+      "name": "Susamlı Çubuk",
+      "desc": "Günlük, gevrek susamlı çubuk.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["vejetaryen","gluten"],
+      "image": "images/susamli_cubuk.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "Elmalı Turta Kurabiye",
+      "desc": "Elmalı dolgu ile tatlandırılmış kurabiye-turta.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["elma","gluten","şeker"],
+      "image": "images/elmali_turta_kurabiye.jpg"
+    },
+     {
+      "id": "p15",
+      "name": "Kol böreği",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Börekler",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+     {
+      "id": "p15",
+      "name": "Su böreği",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Börekler",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+     {
+      "id": "p15",
+      "name": "Gül böreği",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Börekler",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Ay Çöreği",
+      "desc": "Teremyağlı, hafif tatlı ay çöreği.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/ay_coregi.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Karışık kurupasta",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+     {
+      "id": "p15",
+      "name": "Çerkeş Kurabiyesi",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p5",
+      "name": "Üzümlü Turta Kurabiye",
+      "desc": "Üzümlü, kıtır hamurlu turta-kurabiye.",
+      "category": "Kurabiye & Tatlı",
+      "price": "₺--",
+      "tags": ["üzüm","gluten","şeker"],
+      "image": "images/uzumlu_turta_kurabiye.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Ekler",
+      "desc": "Kremalı çikolata veya vanilya dolgulu ekler.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["süt","yumurta","gluten"],
+      "image": "images/ekler.jpg"
+    },
+    {
+      "id": "p7",
+      "name": "Top",
+      "desc": "Çikolatalı toplar (truff tarzı).",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["çikolata","süt","fındık?"],
+      "image": "images/top.jpg"
+    },
+    {
+      "id": "p8",
+      "name": "Supangle",
+      "desc": "Klasik yoğun çikolatalı supangle.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["çikolata","süt"],
+      "image": "images/supangle.jpg"
+    },
+    {
+      "id": "p9",
+      "name": "Profiterol",
+      "desc": "Karamel veya çikolata soslu profiterol.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["süt","yumurta","gluten"],
+      "image": "images/profiterol.jpg"
+    },
+    {
+      "id": "p10",
+      "name": "Poğaça (Sade)",
+      "desc": "Günlük sade poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["gluten","süt"],
+      "image": "images/pogaca_sade.jpg"
+    },
+     {
+      "id": "p10",
+      "name": "Simit",
+      "desc": "Günlük sade poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["gluten","süt"],
+      "image": "images/pogaca_sade.jpg"
+    },
+    {
+      "id": "p11",
+      "name": "Poğaça (Peynirli)",
+      "desc": "İçinde beyaz peynirli poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/pogaca_peynirli.jpg"
+    },
+    {
+      "id": "p12",
+      "name": "Poğaça (Patatesli)",
+      "desc": "Baharatlı patates dolgulu poğaça.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["gluten","patates"],
+      "image": "images/pogaca_patatesli.jpg"
+    },
+    {
+      "id": "p13",
+      "name": "Açma (Sade)",
+      "desc": "Yumuşak, tereyağlı sade açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_sade.jpg"
+    },
+     {
+      "id": "p13",
+      "name": "Poğaça (Mayasız)",
+      "desc": "Yumuşak, tereyağlı sade açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_sade.jpg"
+    },
+    {
+      "id": "p14",
+      "name": "Açma (Kaşarlı)",
+      "desc": "İçinde eritilmiş kaşar peynirli açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_kasarli.jpg"
+    },
+    {
+      "id": "p14",
+      "name": "Açma (Patatesli)",
+      "desc": "İçinde eritilmiş kaşar peynirli açma.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["süt","gluten"],
+      "image": "images/acma_kasarli.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Açma (Cevizli)",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Açma (Çikolatalı)",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Açma (Peynirli)",
+      "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
+      "category": "Hamur",
+      "price": "₺--",
+      "tags": ["ceviz","çikolata","gluten","süt"],
+      "image": "images/cevizli_cikolatali_kurabiye.jpg"
+    },
+    {
+      "id": "p16",
+      "name": "Baklava / Soğuk Baklava",
+      "desc": "Baklava (sıcak) ve soğuk baklava seçenekleri.",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["fıstık?","şeker","gluten"],
+      "image": "images/baklava.jpg"
+    },
+    {
+      "id": "p17",
+      "name": "Şeker Pare / Tulumba",
+      "desc": "Şeker pare ve tulumba tatlıları (gramajlı).",
+      "category": "Tatlılar",
+      "price": "₺--",
+      "tags": ["şeker","gluten"],
+      "image": "images/seker_pare_tulumba.jpg"
+    },
+   {
+      "id": "p18-0",
+      "name": "0 Nolu Pasta",
+      "desc": "Özel 0 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+      "category": "Pastalar",
+      "price": "₺--",
+      "tags": ["özel","sipariş"],
+      "image": "images/nolu_pasta0.jpg"
+    },
+    {
+      "id": "p18-1",
+      "name": "1 Nolu Pasta",
+      "desc": "Özel 1 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+      "category": "Pastalar",
+      "price": "₺--",
+      "tags": ["özel","sipariş"],
+      "image": "images/nolu_pasta1.jpg"
+    },
+    {
+      "id": "p18-2",
+      "name": "2 Nolu Pasta",
+      "desc": "Özel 2 Nolu Pasta — çeşit ve boy seçenekleri için sorunuz.",
+      "category": "Pastalar",
+      "price": "₺--",
+      "tags": ["özel","sipariş"],
+      "image": "images/nolu_pasta2.jpg"
+    },
+    {
+      "name": "Çay",
+      "category": "Sıcak İçecekler",
+      "price": "5₺",
+      "image": "images/cay.png",
+      "desc": "Sıcak çay",
+      "tags": ["sıcak","çay"]
+    },
+    {
+      "name": "Kahve",
+      "category": "Sıcak İçecekler",
+      "price": "10₺",
+      "image": "images/kahve.png",
+      "desc": "Taze demlenmiş kahve",
+      "tags": ["sıcak","kahve"]
+    },
+    {
+      "name": "Oralet",
+      "category": "Sıcak İçecekler",
+      "price": "6₺",
+      "image": "images/oralet.png",
+      "desc": "Soğuk içecek",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Kuşburnu",
+      "category": "Sıcak İçecekler",
+      "price": "7₺",
+      "image": "images/kusburnu.png",
+      "desc": "Vitamin deposu",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Nanelimon",
+      "category": "Sıcak İçecekler",
+      "price": "6₺",
+      "image": "images/nanelimon.png",
+      "desc": "Ferahlatıcı içecek",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Su",
+      "category": "Soğuk İçecekler",
+      "price": "2₺",
+      "image": "images/su.png",
+      "desc": "Mineralli su",
+      "tags": ["soğuk"]
+    },
+    {
+      "name": "Meyve Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "6₺",
+      "image": "images/meyvesuyu.png",
+      "desc": "Çeşitli meyve suları",
+      "tags": ["soğuk","meyve"]
+    },
+    {
+      "name": "Maden Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "3₺",
+      "image": "images/madensuyu.png",
+      "desc": "Soda",
+      "tags": ["soğuk"]
+    },
+    {
+      "name": "Litrelik Kola",
+      "category": "Soğuk İçecekler",
+      "price": "12₺",
+      "image": "images/litrelikkola.png",
+      "desc": "1 L kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "2,5 Litrelik Kola",
+      "category": "Soğuk İçecekler",
+      "price": "18₺",
+      "image": "images/2_5litrelikkola.png",
+      "desc": "2,5 L kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Teneke Kola",
+      "category": "Soğuk İçecekler",
+      "price": "5₺",
+      "image": "images/tenekekola.png",
+      "desc": "330 ml kola",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Teneke Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "6₺",
+      "image": "images/tenekefanta.png",
+      "desc": "Fanta 330 ml",
+      "tags": ["soğuk","gazlı"]
+    },
+     {
+      "name": "Litrelik Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "6₺",
+      "image": "images/tenekefanta.png",
+      "desc": "Fanta 330 ml",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "2,5 Litrelik Fanta",
+      "category": "Soğuk İçecekler",
+      "price": "20₺",
+      "image": "images/2_5litrelikfanta.png",
+      "desc": "Fanta 2,5 L",
+      "tags": ["soğuk","gazlı"]
+    },
+    {
+      "name": "Litrelik Meyve Suyu",
+      "category": "Soğuk İçecekler",
+      "price": "15₺",
+      "image": "images/litrelikmeyvesuyu.png",
+      "desc": "1 L meyve suyu",
+      "tags": ["soğuk","meyve"]
+    }
+  ]
 }
-
-function buildCategories(){
-  const cats = new Set(['Tümü']);
-  state.menu.forEach(i=>cats.add(i.category || 'Diğer'));
-  state.categories = Array.from(cats);
-  const container=document.getElementById('categories'); container.innerHTML='';
-  state.categories.forEach(cat=>{
-    const btn=document.createElement('button');
-    btn.className='cat-btn'+(cat=== (state.activeCat==='all'?'Tümü':state.activeCat)?' active':'');
-    btn.textContent=cat;
-    btn.onclick=()=>{
-      state.activeCat=(cat==='Tümü'?'all':cat);
-      document.querySelectorAll('.cat-btn').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      render();
-    };
-    container.appendChild(btn);
-  });
-}
-
-function render(){
-  const q=(document.getElementById('search').value||'').trim().toLowerCase();
-  const grid=document.getElementById('grid');
-  const filtered=state.menu.filter(item=>{
-    if(state.activeCat!=='all' && (item.category || 'Diğer')!==state.activeCat) return false;
-    if(!q) return true;
-    return (item.name||'').toLowerCase().includes(q) || (item.desc||'').toLowerCase().includes(q) || (item.tags||[]).join(' ').toLowerCase().includes(q);
-  });
-  if(state.updated) document.getElementById('updated').textContent=state.updated;
-  if(filtered.length===0){
-    grid.innerHTML='<div style="padding:18px;color:#666">Sonuç bulunamadı.</div>';
-    return;
-  }
-  grid.innerHTML='';
-  filtered.forEach(it=>{
-    const card=document.createElement('div'); card.className='card';
-    const img=document.createElement('img'); img.className='thumb';
-    img.alt=it.name;
-    img.src=it.image||'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72"><rect width="100%" height="100%" fill="%23eee"/></svg>';
-    const info=document.createElement('div'); info.className='info';
-    info.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center"><div><div class="title">${escapeHtml(it.name)}</div><div class="desc">${escapeHtml(it.desc||'')}</div></div><div class="price">${escapeHtml(it.price)}</div></div>`;
-    const tags=document.createElement('div'); tags.className='tags';
-    (it.tags||[]).forEach(t=>{ const tt=document.createElement('span'); tt.className='tag'; tt.textContent=t; tags.appendChild(tt); });
-    info.appendChild(tags);
-    card.appendChild(img);
-    card.appendChild(info);
-    grid.appendChild(card);
-  });
-}
-
-function escapeHtml(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
-
-document.getElementById('search').addEventListener('input',render);
-document.getElementById('langBtn').addEventListener('click',()=>{state.lang=state.lang==='tr'?'en':'tr'; document.getElementById('langBtn').textContent=state.lang.toUpperCase();});
-
-loadMenu();
-</script>
-</body>
-</html>
