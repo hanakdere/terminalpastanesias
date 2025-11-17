@@ -140,7 +140,7 @@
     {
       "id": "p63",
       "name": "karamelli Trileçe",
-      "desc": "karamelli sütlü pandispanya keski.",
+      "desc": "karamelli sütlü pandispanya keki.",
       "category": "Tatlılar",
       "price": "Porsiyon 60 TL / KG 350 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
@@ -149,12 +149,39 @@
     {
       "id": "p64",
       "name": "frambuazlı Trileçe",
-      "desc": "frambuaz sütlü pandispanya keski.",
+      "desc": "frambuaz sütlü pandispanya keki.",
       "category": "Tatlılar",
       "price": "Porsiyon 60 TL / KG 350 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "franbuaztriliçe.jpg"
     },
+    {
+      "id": "p65",
+      "name": "Poğaça (zeytinli)",
+      "desc": "Taze ve yumuşak zeytinli poğaça.",
+      "category": "Hamur",
+      "price": "Adet 20 TL",
+      "tags": ["süt","yumurta","gluten","un","zeytin"],
+      "image": "zeytinlipoça.jpg"
+    },
+   {
+      "id": "p66",
+      "name": "Tereyağlı simit",
+      "desc": "Taze ve çıtır tereyağlı simit.",
+      "category": "Hamur",
+      "price": "Adet 20 TL",
+      "tags": ["süt","yumurta","gluten","un","tereyağı"],
+      "image": "tereyağlısimit.jpg"
+    }, 
+    {
+      "id": "p67",
+      "name": "Poğaça (kaşarlı)",
+      "desc": "Taze ve yumuşak kaşarlı poğaça.",
+      "category": "Hamur",
+      "price": "Adet 20 TL",
+      "tags": ["süt","yumurta","gluten","un","tereyağı"],
+      "image": "kaşarlıpoça.jpg"
+    }, 
     {
       "id": "p14",
       "name": "Truff Top",
@@ -189,7 +216,7 @@
       "category": "Hamur",
       "price": "Adet 15 TL",
       "tags": ["gluten","süt","un","tereyağı"],
-      "image": "images/hamur_pogaca_sade.jpg"
+      "image": "sadepoça.jpg"
     },
     {
       "id": "p18",
@@ -198,7 +225,7 @@
       "category": "Hamur",
       "price": "Adet 15 TL",
       "tags": ["gluten","un","susam","süt"],
-      "image": "images/hamur_simit.jpg"
+      "image": "simit.jpg"
     },
     {
       "id": "p19",
@@ -207,7 +234,7 @@
       "category": "Hamur",
       "price": "Adet 35 TL",
       "tags": ["gluten","süt","un","domates","peynir"],
-      "image": "images/hamur_pizza.jpg"
+      "image": "pizza.jpg"
     },
     {
       "id": "p20",
@@ -216,7 +243,7 @@
       "category": "Hamur",
       "price": "Adet 25 TL",
       "tags": ["gluten","süt","un"],
-      "image": "images/hamur_kir_pidesi.jpg"
+      "image": "kırpidesi.jpg"
     },
   {
     "id": "p21",
@@ -225,7 +252,7 @@
     "category": "Hamur",
     "price": "Adet 20 TL",
     "tags": ["gluten","süt","dereotu","un","tereyağı"],
-    "image": "images/pogaca_dereotlu.jpg"
+    "image": "dereotlu.jpg"
   },
   {
     "id": "p22",
@@ -234,7 +261,7 @@
     "category": "Hamur",
     "price": "Adet 15 TL",
     "tags": ["süt","gluten","peynir","un","tereyağı"],
-    "image": "images/pogaca_peynirli.jpg"
+    "image": "peynirlipoça.jpg"
   },
   {
     "id": "p23",
@@ -243,7 +270,7 @@
     "category": "Hamur",
     "price": "Adet 15 TL",
     "tags": ["gluten","patates","un","tereyağı","baharat"],
-    "image": "images/pogaca_patatesli.jpg"
+    "image": "patateslipça.jpg"
   },
   {
     "id": "p24",
@@ -252,7 +279,7 @@
     "category": "Hamur",
     "price": "Adet 15 TL",
     "tags": ["süt","gluten","un","tereyağı"],
-    "image": "images/acma_sade.jpg"
+    "image": "sadeaçma.jpg"
   },
   {
     "id": "p25",
@@ -261,7 +288,7 @@
     "category": "Hamur",
     "price": "Adet 15 TL",
     "tags": ["süt","gluten","un","tereyağı"],
-    "image": "images/pogaca_mayasiz.jpg"
+    "image": "mayasız.jpg"
   },
   {
     "id": "p26",
@@ -270,7 +297,7 @@
     "category": "Hamur",
     "price": "Adet 20 TL",
     "tags": ["süt","gluten","peynir","un","tereyağı"],
-    "image": "images/acma_kasarli.jpg"
+    "image": "kaşarlıaçma.jpg"
   },
   {
     "id": "p27",
@@ -279,7 +306,7 @@
     "category": "Hamur",
     "price": "Adet 20 TL",
     "tags": ["süt","gluten","patates","un","tereyağı","baharat"],
-    "image": "images/acma_patatesli.jpg"
+    "image": "patatesliaçma.jpg"
   },
   {
     "id": "p28",
@@ -288,7 +315,7 @@
     "category": "Hamur",
     "price": "Adet 20 TL",
     "tags": ["ceviz","gluten","süt","un","şeker","tereyağı"],
-    "image": "images/acma_cevizli.jpg"
+    "image": "cevizliaçma.jpg"
   },
   {
     "id": "p29",
@@ -297,7 +324,7 @@
     "category": "Hamur",
     "price": "Adet 20 TL",
     "tags": ["çikolata","gluten","süt","un","şeker","tereyağı"],
-    "image": "images/acma_cikolatali.jpg"
+    "image": "çikolatalıaçma.jpg"
   },
   {
     "id": "p30",
@@ -306,7 +333,7 @@
     "category": "Hamur",
     "price": "Adet 20 TL",
     "tags": ["peynir","gluten","süt","un","tereyağı"],
-    "image": "images/acma_peynirli.jpg"
+    "image": "peynirliaçma.jpg"
   },
   {
     "id": "p31",
