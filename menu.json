@@ -36,7 +36,7 @@
       "category": "Börekler",
       "price": "Porsiyon 90 TL / KG 350 TL",
       "tags": ["gluten","kıyma","soğan","baharat","tereyağı","süt"],
-      "image": "images/borek_kiymali_kol.jpg"
+      "image": "börek.jpg"
     },
     {
       "id": "p5",
@@ -45,7 +45,7 @@
       "category": "Börekler",
       "price": "Porsiyon 90 TL / KG 350 TL",
       "tags": ["gluten","peynir","tereyağı","süt"],
-      "image": "images/borek_peynirli_kol.jpg"
+      "image": "börek.jpg"
     },
     {
       "id": "p6",
@@ -54,7 +54,7 @@
       "category": "Börekler",
       "price": "Porsiyon 90 TL / KG 350 TL",
       "tags": ["gluten","patates","tereyağı","süt"],
-      "image": "images/borek_patatesli_kol.jpg"
+      "image": "börek.jpg"
     },
     {
       "id": "p7",
@@ -495,7 +495,7 @@
     "category": "Pastalar",
     "price": "Adet 680 TL",
     "tags": ["özel","sipariş"],
-    "image": "images/nolu_pasta1.jpg"
+    "image": "1noluugur.jpg"
   },
   {
     "id": "p43",
