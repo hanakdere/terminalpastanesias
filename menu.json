@@ -124,7 +124,7 @@
       "name": "frambuazlı Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Porsiyon 60 TL / KG 350 TL",
+      "price": "Adet 15 TL /Porsiyon 60 TL / KG 350 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "eklerfran.jpg"
     },
@@ -133,7 +133,7 @@
       "name": "hindistan cevizli Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Porsiyon 60 TL / KG 350 TL",
+      "price": "Adet 15 TL /Porsiyon 60 TL / KG 350 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "hintekler.jpg"
     },
@@ -142,7 +142,7 @@
       "name": "karamelli Trileçe",
       "desc": "karamelli sütlü pandispanya keki.",
       "category": "Tatlılar",
-      "price": "Porsiyon 60 TL / KG 350 TL",
+      "price": "Porsiyon 70 TL ",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "karameltriliçe.jpg"
     },
@@ -151,7 +151,7 @@
       "name": "frambuazlı Trileçe",
       "desc": "frambuaz sütlü pandispanya keki.",
       "category": "Tatlılar",
-      "price": "Porsiyon 60 TL / KG 350 TL",
+      "price": "Porsiyon 70 TL L",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "franbuaztriliçe.jpg"
     },
@@ -340,7 +340,7 @@
     "name": "Baklava ",
     "desc": "Sıcak baklava ",
     "category": "Tatlılar",
-    "price": "Porsiyon 90 TL / KG 450 TL",
+    "price": "Porsiyon 100 TL / KG 450 TL",
     "tags": ["ceviz","şeker","gluten","un","tereyağı"],
     "image": "baklava.jpg"
   },
@@ -349,7 +349,7 @@
     "name": " Soğuk Baklava",
     "desc": "soğuk baklava seçenekleri.",
     "category": "Tatlılar",
-    "price": "Porsiyon 100 TL / KG 500 TL",
+    "price": "Porsiyon 120 TL / KG 500 TL",
     "tags": ["süt","ceviz","şeker","gluten","un","tereyağı"],
     "image": "soğukbaklava.jpg"
   },
@@ -649,7 +649,7 @@
     {
       "name": "2,5 Litrelik Fanta",
       "category": "Soğuk İçecekler",
-      "price": "60₺",
+      "price": "80₺",
       "image": "büyükfanta.jpg",
       "desc": "Fanta 2,5 L",
       "tags": ["soğuk","gazlı"]
