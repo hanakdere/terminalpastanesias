@@ -115,7 +115,7 @@
       "name": "çikolatalı Ekler",
       "desc": "vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL/Porsiyon 60 TL / KG 350 TL",
+      "price": "Adet 15 TL/Porsiyon 60 TL / KG 400 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "ekler.jpg"
     },
@@ -124,7 +124,7 @@
       "name": "frambuazlı Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL /Porsiyon 60 TL / KG 350 TL",
+      "price": "Adet 15 TL /Porsiyon 60 TL / KG 400 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "eklerfran.jpg"
     },
@@ -133,7 +133,7 @@
       "name": "hindistan cevizli Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL /Porsiyon 60 TL / KG 350 TL",
+      "price": "Adet 15 TL /Porsiyon 60 TL / KG 400 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "hintekler.jpg"
     },
@@ -142,7 +142,7 @@
       "name": "karamelli Trileçe",
       "desc": "karamelli sütlü pandispanya keki.",
       "category": "Tatlılar",
-      "price": "Porsiyon 70 TL ",
+      "price": "Porsiyon 80 TL ",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "karameltriliçe.jpg"
     },
@@ -151,7 +151,7 @@
       "name": "frambuazlı Trileçe",
       "desc": "frambuaz sütlü pandispanya keki.",
       "category": "Tatlılar",
-      "price": "Porsiyon 70 TL ",
+      "price": "Porsiyon 80 TL ",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "franbuaztriliçe.jpg"
     },
@@ -196,7 +196,7 @@
       "name": "Supangle",
       "desc": "Yoğun çikolatalı klasik supangle.",
       "category": "Tatlılar",
-      "price": "Adet 70 TL",
+      "price": "Adet 90 TL",
       "tags": ["çikolata","süt","un","şeker"],
       "image": "supangle.jpg"
     },
@@ -205,7 +205,7 @@
       "name": "Profiterol",
       "desc": "Çikolata soslu kremalı profiterol.",
       "category": "Tatlılar",
-      "price": "Adet 70 TL",
+      "price": "Adet 90 TL",
       "tags": ["süt","yumurta","gluten","un","çikolata","şeker"],
       "image": "progfeterol.jpg"
     },
@@ -394,7 +394,7 @@
     "name": "Küçük muzlu porsiyon pasta",
     "desc": "çeşit ve boy seçenekleri için sorunuz.",
     "category": "Pastalar",
-    "price": "Adet 75 TL",
+    "price": "Adet 90 TL",
     "tags": ["özel","sipariş"],
     "image": "porsiyonpasta.jpg"
   },
@@ -403,7 +403,7 @@
     "name": "Küçük çikolatalı porsiyon pasta",
     "desc": "çeşit ve boy seçenekleri için sorunuz.",
     "category": "Pastalar",
-    "price": "Adet 75 TL",
+    "price": "Adet 90 TL",
     "tags": ["özel","sipariş"],
     "image": "küçükçikolata.jpg"
   },
