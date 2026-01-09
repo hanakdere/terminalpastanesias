@@ -7,7 +7,7 @@
       "name": "Mini Muzlu Rulo",
       "desc": "İnce hamur içinde muzlu kremalı küçük rulo.",
       "category": "Tatlılar",
-      "price": "Adet 25 TL / KG 350 TL",
+      "price": "Adet 25 TL / KG 400 TL",
       "tags": ["muz","süt","gluten","şeker"],
       "image": "rulo.jpg"
     },
@@ -609,7 +609,7 @@
     {
       "name": "Litrelik Kola",
       "category": "Soğuk İçecekler",
-      "price": "60₺",
+      "price": "70₺",
       "image": "küçükkola.jpg",
       "desc": "1 L kola",
       "tags": ["soğuk","gazlı"]
@@ -617,7 +617,7 @@
     {
       "name": "2,5 Litrelik Kola",
       "category": "Soğuk İçecekler",
-      "price": "80₺",
+      "price": "90₺",
       "image": "büyükkola.jpg",
       "desc": "2,5 L kola",
       "tags": ["soğuk","gazlı"]
@@ -641,7 +641,7 @@
      {
       "name": "Litrelik Fanta",
       "category": "Soğuk İçecekler",
-      "price": "60₺",
+      "price": "70₺",
       "image": "litrelikfanta.jpeg",
       "desc": "Fanta 330 ml",
       "tags": ["soğuk","gazlı"]
@@ -649,7 +649,7 @@
     {
       "name": "2,5 Litrelik Fanta",
       "category": "Soğuk İçecekler",
-      "price": "80₺",
+      "price": "90₺",
       "image": "büyükfanta.jpg",
       "desc": "Fanta 2,5 L",
       "tags": ["soğuk","gazlı"]
@@ -657,7 +657,7 @@
     {
       "name": "Litrelik Meyve Suyu",
       "category": "Soğuk İçecekler",
-      "price": "70₺",
+      "price": "80₺",
       "image": "litremeyv.jpg",
       "desc": "1 L meyve suyu",
       "tags": ["soğuk","meyve"]
