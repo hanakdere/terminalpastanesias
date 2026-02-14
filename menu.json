@@ -545,7 +545,7 @@
     {
       "name": "Çay",
       "category": "Sıcak İçecekler",
-      "price": "10₺",
+      "price": "15₺",
       "image": "çay.jpg",
       "desc": "Sıcak çay",
       "tags": ["sıcak","çay"]
@@ -561,7 +561,7 @@
     {
       "name": "Oralet",
       "category": "Sıcak İçecekler",
-      "price": "10₺",
+      "price": "15₺",
       "image": "oralet.jpeg",
       "desc": "Soğuk içecek",
       "tags": ["soğuk","meyve"]
@@ -569,7 +569,7 @@
     {
       "name": "Kuşburnu",
       "category": "Sıcak İçecekler",
-      "price": "10₺",
+      "price": "15₺",
       "image": "kuşburnu.jpg",
       "desc": "Vitamin deposu",
       "tags": ["soğuk","meyve"]
@@ -577,7 +577,7 @@
     {
       "name": "Nanelimon",
       "category": "Sıcak İçecekler",
-      "price": "10₺",
+      "price": "15₺",
       "image": "nanelimon.jpeg",
       "desc": "Ferahlatıcı içecek",
       "tags": ["soğuk","meyve"]
