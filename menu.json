@@ -7,7 +7,7 @@
       "name": "Mini Muzlu Rulo",
       "desc": "İnce hamur içinde muzlu kremalı küçük rulo.",
       "category": "Tatlılar",
-      "price": "Adet 25 TL / KG 400 TL",
+      "price": "Adet 30 TL / KG 400 TL",
       "tags": ["muz","süt","gluten","şeker"],
       "image": "rulo.jpg"
     },
@@ -367,7 +367,7 @@
     "name": " Tulumba",
     "desc": "tulumba tatlıları (gramajlı).",
     "category": "Tatlılar",
-    "price": "Porsiyon 60 TL / KG 250 TL",
+    "price": "Porsiyon 80 TL / KG 300 TL",
     "tags": ["şeker","gluten","un","tereyağı"],
     "image": "tlumba.jpg"
   },
