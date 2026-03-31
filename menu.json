@@ -16,7 +16,7 @@
       "name": "Susamlı Çubuk",
       "desc": "Günlük, gevrek susamlı çubuk.",
       "category": "Kurabiye & Tatlı",
-      "price": "Porsiyon 50 TL / KG 400 TL",
+      "price": "Porsiyon 50 TL / KG 450 TL",
       "tags": ["vejetaryen","gluten","susam","un"],
       "image": "çubuk.jpg"
     },
@@ -34,7 +34,7 @@
       "name": "Kıymalı Kol Böreği",
       "desc": "Tereyağı, sıvı yağ, kıyma, soğan ve baharatlarla hazırlanmış kol böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 450 TL",
+      "price": "Porsiyon 100 TL / KG 450 TL",
       "tags": ["gluten","kıyma","soğan","baharat","tereyağı","süt"],
       "image": "börek.jpg"
     },
@@ -43,7 +43,7 @@
       "name": "Peynirli Kol Böreği",
       "desc": "Tereyağı ve tam yağlı peynirle hazırlanmış kol böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 450 TL",
+      "price": "Porsiyon 100 TL / KG 450 TL",
       "tags": ["gluten","peynir","tereyağı","süt"],
       "image": "börek.jpg"
     },
@@ -52,7 +52,7 @@
       "name": "Patatesli Kol Böreği",
       "desc": "Tereyağı ve doğal patatesle hazırlanmış kol böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 450 TL",
+      "price": "Porsiyon 100 TL / KG 450 TL",
       "tags": ["gluten","patates","tereyağı","süt"],
       "image": "börek.jpg"
     },
@@ -61,7 +61,7 @@
       "name": "Su Böreği",
       "desc": "Tereyağı ve tam yağlı kaşar peyniriyle hazırlanmış su böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 450 TL",
+      "price": "Porsiyon 100 TL / KG 450 TL",
       "tags": ["gluten","peynir","tereyağı","süt"],
       "image": "subörek.jpg"
     },
@@ -97,7 +97,7 @@
       "name": "Çerkeş Kurabiyesi",
       "desc": "Çerkeş’e özgü tarifiyle yapılan özel kurabiye.",
       "category": "Kurabiye & Tatlı",
-      "price": "Porsiyon 75 TL / KG 300 TL",
+      "price": "Porsiyon 75 TL / KG 350 TL",
       "tags": ["gluten","süt","un","yağ"],
       "image": "porsiyonçerkes.jpg"
     },
@@ -142,7 +142,7 @@
       "name": "karamelli Trileçe",
       "desc": "karamelli sütlü pandispanya keki.",
       "category": "Tatlılar",
-      "price": "Porsiyon 80 TL ",
+      "price": "Porsiyon 100 TL ",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "karameltriliçe.jpg"
     },
@@ -151,7 +151,7 @@
       "name": "frambuazlı Trileçe",
       "desc": "frambuaz sütlü pandispanya keki.",
       "category": "Tatlılar",
-      "price": "Porsiyon 80 TL ",
+      "price": "Porsiyon 100 TL ",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "franbuaztriliçe.jpg"
     },
