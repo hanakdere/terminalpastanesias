@@ -7,7 +7,7 @@
       "name": "Mini Muzlu Rulo",
       "desc": "İnce hamur içinde muzlu kremalı küçük rulo.",
       "category": "Tatlılar",
-      "price": "Adet 30 TL / KG 400 TL",
+      "price": "Adet 30 TL / KG 450 TL",
       "tags": ["muz","süt","gluten","şeker"],
       "image": "rulo.jpg"
     },
@@ -34,7 +34,7 @@
       "name": "Kıymalı Kol Böreği",
       "desc": "Tereyağı, sıvı yağ, kıyma, soğan ve baharatlarla hazırlanmış kol böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 350 TL",
+      "price": "Porsiyon 90 TL / KG 450 TL",
       "tags": ["gluten","kıyma","soğan","baharat","tereyağı","süt"],
       "image": "börek.jpg"
     },
@@ -43,7 +43,7 @@
       "name": "Peynirli Kol Böreği",
       "desc": "Tereyağı ve tam yağlı peynirle hazırlanmış kol böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 350 TL",
+      "price": "Porsiyon 90 TL / KG 450 TL",
       "tags": ["gluten","peynir","tereyağı","süt"],
       "image": "börek.jpg"
     },
@@ -52,7 +52,7 @@
       "name": "Patatesli Kol Böreği",
       "desc": "Tereyağı ve doğal patatesle hazırlanmış kol böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 350 TL",
+      "price": "Porsiyon 90 TL / KG 450 TL",
       "tags": ["gluten","patates","tereyağı","süt"],
       "image": "börek.jpg"
     },
@@ -61,7 +61,7 @@
       "name": "Su Böreği",
       "desc": "Tereyağı ve tam yağlı kaşar peyniriyle hazırlanmış su böreği.",
       "category": "Börekler",
-      "price": "Porsiyon 90 TL / KG 350 TL",
+      "price": "Porsiyon 90 TL / KG 450 TL",
       "tags": ["gluten","peynir","tereyağı","süt"],
       "image": "subörek.jpg"
     },
@@ -88,7 +88,7 @@
       "name": "Karışık Kurabiye",
       "desc": "Ceviz ve çikolata parçacıklı kurabiye.",
       "category": "Kurabiye & Tatlı",
-      "price": "Porsiyon 80 TL / KG 400 TL",
+      "price": "Porsiyon 80 TL / KG 450 TL",
       "tags": ["ceviz","çikolata","gluten","süt","un","şeker"],
       "image": "kurupasta.jpg"
     },
@@ -160,7 +160,7 @@
       "name": "Poğaça (zeytinli)",
       "desc": "Taze ve yumuşak zeytinli poğaça.",
       "category": "Hamur",
-      "price": "Adet 20 TL",
+      "price": "Adet 25 TL",
       "tags": ["süt","yumurta","gluten","un","zeytin"],
       "image": "zeytinlipoça.jpg"
     },
@@ -169,7 +169,7 @@
       "name": "Tereyağlı simit",
       "desc": "Taze ve çıtır tereyağlı simit.",
       "category": "Hamur",
-      "price": "Adet 20 TL",
+      "price": "Adet 25 TL",
       "tags": ["süt","yumurta","gluten","un","tereyağı"],
       "image": "tereyağlısimit.jpg"
     }, 
@@ -178,7 +178,7 @@
       "name": "Poğaça (kaşarlı)",
       "desc": "Taze ve yumuşak kaşarlı poğaça.",
       "category": "Hamur",
-      "price": "Adet 20 TL",
+      "price": "Adet 25 TL",
       "tags": ["süt","yumurta","gluten","un","tereyağı"],
       "image": "kaşarlıpoça.jpg"
     }, 
@@ -187,7 +187,7 @@
       "name": "Truff Top",
       "desc": "Çikolatalı ve fındıklı toplar (truff tarzı).",
       "category": "Tatlılar",
-      "price": "Adet 7.5 TL / KG 350 TL",
+      "price": "Adet 10 TL / KG 450 TL",
       "tags": ["çikolata","süt","fındık","şeker"],
       "image": "top.jpg"
     },
@@ -196,7 +196,7 @@
       "name": "Supangle",
       "desc": "Yoğun çikolatalı klasik supangle.",
       "category": "Tatlılar",
-      "price": "Adet 90 TL",
+      "price": "Adet 100 TL",
       "tags": ["çikolata","süt","un","şeker"],
       "image": "supangle.jpg"
     },
@@ -205,7 +205,7 @@
       "name": "Profiterol",
       "desc": "Çikolata soslu kremalı profiterol.",
       "category": "Tatlılar",
-      "price": "Adet 90 TL",
+      "price": "Adet 100 TL",
       "tags": ["süt","yumurta","gluten","un","çikolata","şeker"],
       "image": "progfeterol.jpg"
     },
@@ -214,7 +214,7 @@
       "name": "Poğaça (Sade)",
       "desc": "Taze ve yumuşak sade poğaça.",
       "category": "Hamur",
-      "price": "Adet 15 TL",
+      "price": "Adet 20 TL",
       "tags": ["gluten","süt","un","tereyağı"],
       "image": "sadepoça.jpg"
     },
@@ -223,7 +223,7 @@
       "name": "Simit",
       "desc": "Geleneksel, susamlı simit.",
       "category": "Hamur",
-      "price": "Adet 15 TL",
+      "price": "Adet 20 TL",
       "tags": ["gluten","un","susam","süt"],
       "image": "simit.jpg"
     },
@@ -250,7 +250,7 @@
     "name": "Dereotlu Poğaça",
     "desc": "Taze ve yumuşak, içi dereotulu poğaça.",
     "category": "Hamur",
-    "price": "Adet 20 TL",
+    "price": "Adet 25 TL",
     "tags": ["gluten","süt","dereotu","un","tereyağı"],
     "image": "dereotlu.jpg"
   },
@@ -259,7 +259,7 @@
     "name": "Poğaça (Peynirli)",
     "desc": "Tam yağlı peynir ile hazırlanmış poğaça.",
     "category": "Hamur",
-    "price": "Adet 15 TL",
+    "price": "Adet 20 TL",
     "tags": ["süt","gluten","peynir","un","tereyağı"],
     "image": "peynirlipoça.jpg"
   },
@@ -268,7 +268,7 @@
     "name": "Poğaça (Patatesli)",
     "desc": "Baharatlı patates dolgulu yumuşak poğaça.",
     "category": "Hamur",
-    "price": "Adet 15 TL",
+    "price": "Adet 20 TL",
     "tags": ["gluten","patates","un","tereyağı","baharat"],
     "image": "patateslipça.jpg"
   },
@@ -277,7 +277,7 @@
     "name": "Açma (Sade)",
     "desc": "Tereyağlı, yumuşak sade açma.",
     "category": "Hamur",
-    "price": "Adet 15 TL",
+    "price": "Adet 20 TL",
     "tags": ["süt","gluten","un","tereyağı"],
     "image": "sadeaçma.jpg"
   },
@@ -286,7 +286,7 @@
     "name": "Poğaça (Mayasız)",
     "desc": "Tereyağlı, mayasız poğaça.",
     "category": "Hamur",
-    "price": "Adet 15 TL",
+    "price": "Adet 20 TL",
     "tags": ["süt","gluten","un","tereyağı"],
     "image": "mayasız.jpg"
   },
@@ -295,7 +295,7 @@
     "name": "Açma (Kaşarlı)",
     "desc": "İçinde eritilmiş kaşar peyniri bulunan açma.",
     "category": "Hamur",
-    "price": "Adet 20 TL",
+    "price": "Adet 25 TL",
     "tags": ["süt","gluten","peynir","un","tereyağı"],
     "image": "kaşarlıaçma.jpg"
   },
@@ -304,7 +304,7 @@
     "name": "Açma (Patatesli)",
     "desc": "Patates dolgulu yumuşak açma.",
     "category": "Hamur",
-    "price": "Adet 20 TL",
+    "price": "Adet 25 TL",
     "tags": ["süt","gluten","patates","un","tereyağı","baharat"],
     "image": "patatesliaçma.jpg"
   },
@@ -313,7 +313,7 @@
     "name": "Açma (Cevizli)",
     "desc": "İçinde ceviz bulunan tatlı açma.",
     "category": "Hamur",
-    "price": "Adet 20 TL",
+    "price": "Adet 25 TL",
     "tags": ["ceviz","gluten","süt","un","şeker","tereyağı"],
     "image": "cevizliaçma.jpg"
   },
@@ -322,7 +322,7 @@
     "name": "Açma (Çikolatalı)",
     "desc": "İçinde çikolata parçacıkları bulunan açma.",
     "category": "Hamur",
-    "price": "Adet 20 TL",
+    "price": "Adet 25 TL",
     "tags": ["çikolata","gluten","süt","un","şeker","tereyağı"],
     "image": "çikolatalıaçma.jpg"
   },
@@ -331,7 +331,7 @@
     "name": "Açma (Peynirli)",
     "desc": "İçinde eritilmiş kaşar peyniri bulunan açma.",
     "category": "Hamur",
-    "price": "Adet 20 TL",
+    "price": "Adet 25 TL",
     "tags": ["peynir","gluten","süt","un","tereyağı"],
     "image": "peynirliaçma.jpg"
   },
@@ -340,7 +340,7 @@
     "name": "Baklava ",
     "desc": "Sıcak baklava ",
     "category": "Tatlılar",
-    "price": "Porsiyon 100 TL / KG 450 TL",
+    "price": "Porsiyon 100 TL / KG 500 TL",
     "tags": ["ceviz","şeker","gluten","un","tereyağı"],
     "image": "baklava.jpg"
   },
@@ -349,7 +349,7 @@
     "name": " Soğuk Baklava",
     "desc": "soğuk baklava seçenekleri.",
     "category": "Tatlılar",
-    "price": "Porsiyon 120 TL / KG 500 TL",
+    "price": "Porsiyon 120 TL / KG 600 TL",
     "tags": ["süt","ceviz","şeker","gluten","un","tereyağı"],
     "image": "soğukbaklava.jpg"
   },
@@ -376,7 +376,7 @@
     "name": "Baton muzlu Pasta",
     "desc": " çeşit seçenekleri için sorunuz.",
     "category": "Pastalar",
-    "price": "Adet 400 TL",
+    "price": "Adet 500 TL",
     "tags": ["özel","sipariş"],
     "image": "batonmuz.jpg"
   },
@@ -385,7 +385,7 @@
     "name": "Baton çikolatalı Pasta",
     "desc": "çeşit seçenekleri için sorunuz.",
     "category": "Pastalar",
-    "price": "Adet 400 TL",
+    "price": "Adet 500 TL",
     "tags": ["özel","sipariş"],
     "image": "batonçikolata.jpg"
   },
