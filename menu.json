@@ -7,7 +7,7 @@
       "name": "Mini Muzlu Rulo",
       "desc": "İnce hamur içinde muzlu kremalı küçük rulo.",
       "category": "Tatlılar",
-      "price": "Adet 30 TL / KG 450 TL",
+      "price": "Adet 40 TL / KG 450 TL",
       "tags": ["muz","süt","gluten","şeker"],
       "image": "rulo.jpg"
     },
@@ -70,7 +70,7 @@
       "name": "Gül Böreği",
       "desc": "İçinde patates ve baharatlarla sarılmış gül şeklinde börek.",
       "category": "Börekler",
-      "price": "Adet 35 TL",
+      "price": "Adet 40 TL",
       "tags": ["gluten","patates","baharat","tereyağı","süt"],
       "image": "gülb.jpg"
     },
@@ -115,7 +115,7 @@
       "name": "çikolatalı Ekler",
       "desc": "vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL/Porsiyon 60 TL / KG 400 TL",
+      "price": "Adet 15 TL/Porsiyon 60 TL / KG 450 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "ekler.jpg"
     },
@@ -124,7 +124,7 @@
       "name": "frambuazlı Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL /Porsiyon 60 TL / KG 400 TL",
+      "price": "Adet 15 TL /Porsiyon 60 TL / KG 450 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "eklerfran.jpg"
     },
@@ -133,7 +133,7 @@
       "name": "hindistan cevizli Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL /Porsiyon 60 TL / KG 400 TL",
+      "price": "Adet 15 TL /Porsiyon 60 TL / KG 450 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "hintekler.jpg"
     },
@@ -232,7 +232,7 @@
       "name": "Pizza (Mini)",
       "desc": "Taze hamur, peynir ve soslu mini pizza.",
       "category": "Hamur",
-      "price": "Adet 35 TL",
+      "price": "Adet 40 TL",
       "tags": ["gluten","süt","un","domates","peynir"],
       "image": "pizza.jpg"
     },
@@ -241,7 +241,7 @@
       "name": "Kır Pidesi",
       "desc": "Taze ve yumuşak kır pidesi.",
       "category": "Hamur",
-      "price": "Adet 25 TL",
+      "price": "Adet 30 TL",
       "tags": ["gluten","süt","un"],
       "image": "kırpidesi.jpg"
     },
@@ -394,7 +394,7 @@
     "name": "Küçük muzlu porsiyon pasta",
     "desc": "çeşit ve boy seçenekleri için sorunuz.",
     "category": "Pastalar",
-    "price": "Adet 90 TL",
+    "price": "Adet 100 TL",
     "tags": ["özel","sipariş"],
     "image": "porsiyonpasta.jpg"
   },
@@ -403,7 +403,7 @@
     "name": "Küçük çikolatalı porsiyon pasta",
     "desc": "çeşit ve boy seçenekleri için sorunuz.",
     "category": "Pastalar",
-    "price": "Adet 90 TL",
+    "price": "Adet 100 TL",
     "tags": ["özel","sipariş"],
     "image": "küçükçikolata.jpg"
   },
@@ -585,7 +585,7 @@
     {
       "name": "Su",
       "category": "Soğuk İçecekler",
-      "price": "10₺",
+      "price": "15₺",
       "image": "su.jpg",
       "desc": "Mineralli su",
       "tags": ["soğuk"]
@@ -593,7 +593,7 @@
     {
       "name": "Meyve Suyu",
       "category": "Soğuk İçecekler",
-      "price": "20₺",
+      "price": "25₺",
       "image": "küçükmeyv.avif",
       "desc": "Çeşitli meyve suları",
       "tags": ["soğuk","meyve"]
@@ -609,7 +609,7 @@
     {
       "name": "Litrelik Kola",
       "category": "Soğuk İçecekler",
-      "price": "70₺",
+      "price": "80₺",
       "image": "küçükkola.jpg",
       "desc": "1 L kola",
       "tags": ["soğuk","gazlı"]
@@ -617,7 +617,7 @@
     {
       "name": "2,5 Litrelik Kola",
       "category": "Soğuk İçecekler",
-      "price": "90₺",
+      "price": "120₺",
       "image": "büyükkola.jpg",
       "desc": "2,5 L kola",
       "tags": ["soğuk","gazlı"]
@@ -633,7 +633,7 @@
     {
       "name": "Teneke Fanta",
       "category": "Soğuk İçecekler",
-      "price": "60₺",
+      "price": "80₺",
       "image": "tenekefanta.jpeg",
       "desc": "Fanta 330 ml",
       "tags": ["soğuk","gazlı"]
@@ -641,7 +641,7 @@
      {
       "name": "Litrelik Fanta",
       "category": "Soğuk İçecekler",
-      "price": "70₺",
+      "price": "80₺",
       "image": "litrelikfanta.jpeg",
       "desc": "Fanta 330 ml",
       "tags": ["soğuk","gazlı"]
@@ -649,7 +649,7 @@
     {
       "name": "2,5 Litrelik Fanta",
       "category": "Soğuk İçecekler",
-      "price": "90₺",
+      "price": "120₺",
       "image": "büyükfanta.jpg",
       "desc": "Fanta 2,5 L",
       "tags": ["soğuk","gazlı"]
@@ -667,7 +667,7 @@
     "name": "15 kişilik sipariş pasta",
     "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
     "category": "özel siparişler",
-    "price": "Adet 1300 TL",
+    "price": "Adet 1500 TL",
     "tags": ["özel","sipariş"],
     "image": "a.jpg"
   },
@@ -676,7 +676,7 @@
     "name": "20 kişilik sipariş pasta",
     "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
     "category": "özel siparişler",
-    "price": "Adet 1700 TL",
+    "price": "Adet 2000 TL",
     "tags": ["özel","sipariş"],
     "image": "b.jpg"
   },
@@ -685,7 +685,7 @@
     "name": "25 kişilik sipariş pasta",
     "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
     "category": "özel siparişler",
-    "price": "Adet 2000 TL",
+    "price": "Adet 2500 TL",
     "tags": ["özel","sipariş"],
     "image": "c.jpg"
   },
@@ -694,7 +694,7 @@
     "name": "30 kişilik sipariş pasta",
     "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
     "category": "özel siparişler",
-    "price": "Adet 2400 TL",
+    "price": "Adet 3000 TL",
     "tags": ["özel","sipariş"],
     "image": "d.jpg"
   },
@@ -703,7 +703,7 @@
     "name": "35 kişilik sipariş pasta",
     "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
     "category": "özel siparişler",
-    "price": "Adet 2800 TL",
+    "price": "Adet 3500 TL",
     "tags": ["özel","sipariş"],
     "image": "e.jpg"
   },
@@ -712,7 +712,7 @@
     "name": "40 kişilik sipariş pasta",
     "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
     "category": "özel siparişler",
-    "price": "Adet 3500 TL",
+    "price": "Adet 4000 TL",
     "tags": ["özel","sipariş"],
     "image": "f.jpg"
   },
@@ -721,7 +721,7 @@
     "name": "50 kişilik sipariş pasta",
     "desc": "Özel sipariş pasta — çeşit ve boy seçenekleri için sorunuz.",
     "category": "özel siparişler",
-    "price": "Adet 4000 TL",
+    "price": "Adet 5000 TL",
     "tags": ["özel","sipariş"],
     "image": "g.jpg"
   }
