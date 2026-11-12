@@ -115,7 +115,7 @@
       "name": "çikolatalı Ekler",
       "desc": "vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL/Porsiyon 60 TL / KG 450 TL",
+      "price": "Porsiyon 60 TL / KG 450 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "ekler.jpg"
     },
@@ -124,7 +124,7 @@
       "name": "frambuazlı Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL /Porsiyon 60 TL / KG 450 TL",
+      "price": "Porsiyon 60 TL / KG 450 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "eklerfran.jpg"
     },
@@ -133,7 +133,7 @@
       "name": "hindistan cevizli Ekler",
       "desc": " vanilya dolgulu kremalı ekler.",
       "category": "Tatlılar",
-      "price": "Adet 15 TL /Porsiyon 60 TL / KG 450 TL",
+      "price": "Porsiyon 60 TL / KG 450 TL",
       "tags": ["süt","yumurta","gluten","un","şeker"],
       "image": "hintekler.jpg"
     },
